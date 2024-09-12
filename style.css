@@ -57,7 +57,7 @@ body {
     margin: 0;
 }
 
-.person, .interest {
+.person, .interests {
     width: 25%;
     margin: auto;
 }
@@ -69,7 +69,7 @@ body {
     height: auto;
 }
 
-.container img, .interest, .person {
+.container img, .interests, .person {
     margin-top: 50px;
 }
 
@@ -229,7 +229,7 @@ footer a {
         margin: 0;
     }
 
-    .interest p {
+    .interests p {
         margin-top: 5px;
         margin-bottom: 0;
     }

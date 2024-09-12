@@ -79,7 +79,7 @@ body {
 }
 
 body {
-    background-color: white;
+    background-color: greenyellow;
 }
 
 main {
@@ -209,7 +209,7 @@ footer a {
     .container img {
         margin-top: 20px;
         border-radius: 10%;
-        box-shadow: 5px 5px 5px gray;
+        box-shadow: 5px 5px 5px darkgray;
         width: 25%;
         height: auto;
         margin: auto;

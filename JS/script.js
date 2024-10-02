@@ -1,5 +1,5 @@
 document.getElementById("burger2").addEventListener("click", function (){
-    document.querySelector(".navbar").classList.toggle("open")
+    document.querySelector(".navbar").classList.toggle("open");
 })
 
 const plus = document.getElementById("butplus");

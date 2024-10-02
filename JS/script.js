@@ -59,41 +59,41 @@ function calculus(mark) {
 }
 
 plus.addEventListener("click", (event) => {
-    event.preventDefault()
+    event.preventDefault();
     calculus("+");
 });
 
 minus.addEventListener("click", (event) => {
-    event.preventDefault()
+    event.preventDefault();
     calculus("-");
 });
 
 mult.addEventListener("click", (event) => {
-    event.preventDefault()
+    event.preventDefault();
     calculus("*");
 });
 
 div.addEventListener("click", (event) => {
-    event.preventDefault()
+    event.preventDefault();
     calculus("/");
 });
 
 sinus.addEventListener("click", (event) => {
-    event.preventDefault()
+    event.preventDefault();
     calculus("sin");
 });
 
 cosinus.addEventListener("click", (event) => {
-    event.preventDefault()
+    event.preventDefault();
     calculus("cos");
 });
 
 tangence.addEventListener("click", (event) => {
-    event.preventDefault()
+    event.preventDefault();
     calculus("tg");
 });
 
 cotangence.addEventListener("click", (event) => {
-    event.preventDefault()
+    event.preventDefault();
     calculus("ctg");
 });

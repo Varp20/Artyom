@@ -6,10 +6,10 @@ const plus = document.getElementById("butplus");
 const minus = document.getElementById("butminus");
 const mult = document.getElementById("butmult");
 const div = document.getElementById("butdiv");
-const sinus = document.getElementById("butsin");
-const cosinus = document.getElementById("butcos");
-const tangence = document.getElementById("buttg");
-const cotangence = document.getElementById("butctg");
+const sin = document.getElementById("butsin");
+const cos = document.getElementById("butcos");
+const tg = document.getElementById("buttg");
+const ctg = document.getElementById("butctg");
 
 let first = document.getElementById("first");
 let second = document.getElementById("second");
@@ -78,22 +78,22 @@ div.addEventListener("click", (event) => {
     calculus("/");
 });
 
-sinus.addEventListener("click", (event) => {
+sin.addEventListener("click", (event) => {
     event.preventDefault();
     calculus("sin");
 });
 
-cosinus.addEventListener("click", (event) => {
+cos.addEventListener("click", (event) => {
     event.preventDefault();
     calculus("cos");
 });
 
-tangence.addEventListener("click", (event) => {
+tg.addEventListener("click", (event) => {
     event.preventDefault();
     calculus("tg");
 });
 
-cotangence.addEventListener("click", (event) => {
+ctg.addEventListener("click", (event) => {
     event.preventDefault();
     calculus("ctg");
 });

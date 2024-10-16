@@ -374,7 +374,37 @@ footer a {
 
 .API .Petro img, span {
     margin: auto;
-    width: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.API .Tucson {
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.API .Tucson img, span {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.API .Tokyo {
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.API .Tokyo img, span {
+    margin: auto;
+    width: 100%;
     height: auto;
 }
 
@@ -386,9 +416,10 @@ footer a {
     margin-bottom: 40px;
 }
 
+
 .API .Magadan img, span {
     margin: auto;
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -402,7 +433,7 @@ footer a {
 
 .API .Dallas img, span {
     margin: auto;
-    width: 50%;
+    width: 100%;
     height: auto;
 }
 
@@ -431,6 +462,17 @@ footer a {
 }
 
 .API .Dallas span{
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .Tokyo span{
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.API .Tucson span{
     display: inline;
     text-align: center;
     font-size: 1.2rem;
@@ -592,6 +634,66 @@ footer a {
     
     .math form fieldset {
         width: 70%;
+    }
+
+    .API .Petro {
+        width:100%;
+    }
+
+    .API .Magadan {
+        width:100%;
+    }
+
+    .API .Dallas {
+        width:100%;
+    }
+
+    .API .Petro span {
+        font-size: 1.05rem;
+    }
+
+    .API .Magadan span {
+        font-size: 1.05rem;
+    }
+
+    .API .Dallas span {
+        font-size: 1.05rem;
+    }
+
+    .API .Tokyo {
+        width:100%;
+    }
+
+    .API .Tucson {
+        width:100%;
+    }
+
+    .API .Tokyo span {
+        font-size: 1.05rem;
+    }
+
+    .API .Tucson span {
+        font-size: 1.05rem;
+    }
+
+    .API .Petro img, span {
+        margin-left: 10px;
+    }
+
+    .API .Tucson img, span {
+        margin-left: 10px;
+    }
+
+    .API .Tokyo img, span {
+        margin-left: 10px;
+    }
+
+    .API .Magadan img, span {
+        margin-left: 10px;
+    }
+
+    .API .Dallas img, span {
+        margin-left: 10px;
     }
 }
 @media (min-width: 700px) and (max-width: 900px) {

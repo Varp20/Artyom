@@ -357,6 +357,84 @@ footer a {
     margin: auto;
     font-size: 1.2rem;
 }
+
+.API {
+    display:flex;
+    flex-direction: column;
+}
+
+.API .Petro {
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.API .Petro img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Magadan {
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.API .Magadan img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Dallas {
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.API .Dallas img, span {
+    margin: auto;
+    width: 50%;
+    height: auto;
+}
+
+.API .Petro img {
+    border-radius: 8px;
+}
+
+.API .Magadan img {
+    border-radius: 8px;
+}
+
+.API .Dallas img {
+    border-radius: 8px;
+}
+
+.API .Petro span{
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .Magadan span{
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.API .Dallas span{
+    display: inline;
+    text-align: center;
+    font-size: 1.2rem;
+}
 @media (max-width: 700px) {
     .container {
         display: flex;

@@ -192,16 +192,20 @@ h2{
 }
 
 footer {
+    
     margin-top: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center
 }
 
 footer a {
     margin-right: 10px;
 }
-
+footer div iframe {
+    margin-top:20px;
+}
 .burger {
     display:none;
 }
